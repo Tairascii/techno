@@ -1,0 +1,19 @@
+table{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+table tr *{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 25%;
+}
+
+table tr{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
